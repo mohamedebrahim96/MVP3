@@ -17,4 +17,6 @@ class BasePresenter<V : MvpView>(dataManager: DataManager) : MvpPresenter<V> {
     }
 
 
+
+
 }
