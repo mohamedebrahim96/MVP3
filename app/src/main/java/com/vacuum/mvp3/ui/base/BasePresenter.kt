@@ -9,6 +9,9 @@ class BasePresenter<V : MvpView>(dataManager: DataManager) : MvpPresenter<V> {
         private set
 
 
+
+
+
     override fun onAttach(mvpView: V) {
         this.mvpView = mvpView
     }
