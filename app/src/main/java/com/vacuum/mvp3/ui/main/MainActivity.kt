@@ -1,7 +1,8 @@
-package com.vacuum.mvp3
+package com.vacuum.mvp3.ui.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.vacuum.mvp3.R
 
 class MainActivity : AppCompatActivity() {
 
