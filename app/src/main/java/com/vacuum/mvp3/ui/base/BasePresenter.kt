@@ -4,7 +4,7 @@ import android.icu.lang.UCharacter.GraphemeClusterBreak.V
 import com.vacuum.mvp3.data.DataManager
 
 
-class BasePresenter<V : MvpView>(dataManager: DataManager) : MvpPresenter<V> {
+open class BasePresenter<V : MvpView>(dataManager: DataManager) : MvpPresenter<V> {
 
     var mvpView: V? = null
         private set
