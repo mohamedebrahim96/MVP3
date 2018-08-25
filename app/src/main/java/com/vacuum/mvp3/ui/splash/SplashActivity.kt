@@ -36,11 +36,6 @@ class SplashActivity : Activity(),SplashMvpView {
         mSplashPresenter?.decideNextActivity()
     }
 
-
-
-
-
-
     fun getStartIntent(context: Context): Intent {
         return Intent(context, SplashActivity::class.java)
     }
