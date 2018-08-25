@@ -37,6 +37,8 @@ class SplashActivity : Activity(),SplashMvpView {
     }
 
 
+
+
     fun getStartIntent(context: Context): Intent {
         return Intent(context, SplashActivity::class.java)
     }
