@@ -44,6 +44,8 @@ class SplashActivity : Activity(),SplashMvpView {
 
 
 
+
+
     override fun openMainActivity() {
         val intent = MainActivity.getStartIntent(this)
         startActivity(intent)
