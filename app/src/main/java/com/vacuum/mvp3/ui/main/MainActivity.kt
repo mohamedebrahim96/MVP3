@@ -38,13 +38,4 @@ class MainActivity : AppCompatActivity(), MainMvpView {
     }
 
 
-
-
-
-
-
-
-
-
-
 }
