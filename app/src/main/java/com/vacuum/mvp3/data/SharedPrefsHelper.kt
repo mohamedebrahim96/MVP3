@@ -8,7 +8,7 @@ import android.content.Context.MODE_PRIVATE
 
 class SharedPrefsHelper(context: Context) {
 
-    internal var mSharedPreferences: SharedPreferences
+    var mSharedPreferences: SharedPreferences
 
     init {
         mSharedPreferences = context.getSharedPreferences(MY_PREFS, MODE_PRIVATE)
