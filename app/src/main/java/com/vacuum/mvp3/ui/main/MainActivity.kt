@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.vacuum.mvp3.MvpApp
 import com.vacuum.mvp3.R
-import com.vacuum.mvp3.ui.base.MvpPresenter
 import com.vacuum.mvp3.ui.splash.SplashActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -36,6 +35,8 @@ class MainActivity : AppCompatActivity(), MainMvpView {
         startActivity(i)
         finish()
     }
+
+
 
 
 }
