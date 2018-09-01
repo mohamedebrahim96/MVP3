@@ -38,9 +38,4 @@ class MainActivity : AppCompatActivity(), MainMvpView {
 
 
 
-
-
-
-
-
 }
