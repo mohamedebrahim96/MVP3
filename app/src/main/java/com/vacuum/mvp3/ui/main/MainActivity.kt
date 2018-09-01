@@ -8,7 +8,7 @@ import com.vacuum.mvp3.R
 
 class MainActivity : AppCompatActivity() {
 
-    open fun getStartIntent(context: Context): Intent {
+    fun getStartIntent(context: Context): Intent {
         return Intent(context, MainActivity::class.java)
     }
 
