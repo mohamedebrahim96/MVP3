@@ -1,7 +1,6 @@
 package com.vacuum.mvp3.ui.login
 
 import com.vacuum.mvp3.ui.base.MvpPresenter
-import android.icu.lang.UCharacter.GraphemeClusterBreak.V
 
 
 
