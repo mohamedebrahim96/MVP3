@@ -7,17 +7,7 @@ import com.vacuum.mvp3.ui.login.LoginActivity
 import com.vacuum.mvp3.ui.main.MainActivity
 import android.content.Intent
 import com.vacuum.mvp3.MvpApp
-import com.vacuum.mvp3.data.DataManager
-import com.vacuum.mvp3.MvpApp
 import com.vacuum.mvp3.R
-import com.vacuum.mvp3.data.DataManager
-
-
-
-
-
-
-
 
 class SplashActivity : Activity(),SplashMvpView {
 
@@ -30,9 +20,7 @@ class SplashActivity : Activity(),SplashMvpView {
         val dataManager = (application as MvpApp).dataManager
 
         mSplashPresenter = SplashPresenter(dataManager)
-
         mSplashPresenter?.onAttach(this)
-
         mSplashPresenter?.decideNextActivity()
     }
 
@@ -40,23 +28,15 @@ class SplashActivity : Activity(),SplashMvpView {
         return Intent(context, SplashActivity::class.java)
     }
 
-
-
-
-
-
-
     override fun openMainActivity() {
-        val intent = MainActivity.getStartIntent(this)
+        val intent = MainActivity().getStartIntent(this)
         startActivity(intent)
         finish()
     }
     override fun openLoginActivity() {
-        val intent = LoginActivity.getStartIntent(this)
+        val intent = LoginActivity().getStartIntent(this)
         startActivity(intent)
         finish()
     }
-
-
 
 }

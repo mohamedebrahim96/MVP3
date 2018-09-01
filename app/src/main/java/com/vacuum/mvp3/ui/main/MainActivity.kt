@@ -6,9 +6,9 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.vacuum.mvp3.R
 
-open class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
-    fun getStartIntent(context: Context): Intent {
+    open fun getStartIntent(context: Context): Intent {
         return Intent(context, MainActivity::class.java)
     }
 

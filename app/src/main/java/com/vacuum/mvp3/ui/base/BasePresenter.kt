@@ -1,6 +1,5 @@
 package com.vacuum.mvp3.ui.base
 
-import android.icu.lang.UCharacter.GraphemeClusterBreak.V
 import com.vacuum.mvp3.data.DataManager
 
 
